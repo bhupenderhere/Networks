@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Networks" parent="Theme.Material3.Light">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="AlertDialogTheme" parent="ThemeOverlay.Material3.MaterialAlertDialog.Centered">
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/green</item>
+    </style>
+    <style name="Spinner" parent="Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:popupBackground">@color/white</item>
+        <item name="android:dropDownVerticalOffset">50dp</item>
+        <item name="android:drawableEnd">@drawable/icon_chevron_down</item>
+    </style>
+</resources>
